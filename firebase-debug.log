@@ -48,3 +48,19 @@ Before we get started, keep in mind:
 [debug] [2021-05-19T16:32:47.980Z] >>> HTTP REQUEST POST https://serviceusage.googleapis.com/v1/projects/sophia-dipaola/services/firebasedatabase.googleapis.com:enable  
  
 [debug] [2021-05-19T16:32:48.590Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 19 May 2021 16:32:50 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-19T16:32:58.593Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/sophia-dipaola/services/firebasedatabase.googleapis.com  
+ 
+[debug] [2021-05-19T16:32:59.046Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 19 May 2021 16:33:00 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] ✔  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2021-05-19T16:32:59.049Z] > refreshing access token with scopes: []
+[debug] [2021-05-19T16:32:59.050Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-19T16:32:59.211Z] <<< HTTP RESPONSE 200 {"date":"Wed, 19 May 2021 16:33:01 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-19T16:32:59.239Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sophia-dipaola [none]
+[debug] [2021-05-19T16:32:59.463Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sophia-dipaola 200
+[debug] [2021-05-19T16:32:59.463Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sophia-dipaola {"projectId":"sophia-dipaola","projectNumber":"179327231970","displayName":"Sophia-Dipaola","name":"projects/sophia-dipaola","resources":{"hostingSite":"sophia-dipaola"},"state":"ACTIVE"}
+[info] 
+[info] Firebase Realtime Database Security Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
