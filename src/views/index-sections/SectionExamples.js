@@ -41,7 +41,7 @@ function SectionExamples() {
               <Button
                 className="btn-outline-neutral btn-round"
                 color="default"
-                href="/landing-page"
+                // href="/landing-page"
                 target="_blank"
               >
                 Landing Page

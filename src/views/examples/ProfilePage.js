@@ -66,138 +66,52 @@ function ProfilePage() {
               <img
                 alt="..."
                 className="img-circle img-no-padding img-responsive"
-                src={require("assets/img/faces/joe-gardner-2.jpg").default}
+                src={require("assets/img/faces/sophia-sunset.jpg").default}
               />
             </div>
             <div className="name">
               <h4 className="title">
-                Jane Faker <br />
+                Sophia DiPaola <br />
               </h4>
-              <h6 className="description">Music Producer</h6>
+              <h6 className="description">Front-End Devloper</h6>
             </div>
           </div>
           <Row>
             <Col className="ml-auto mr-auto text-center" md="6">
               <p>
-                An artist of considerable range, Jane Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.
+              With a background in the arts, I have always been fascianted with the process of creating something out of nothing.
+There is nothing more magical than seeing the direct manifestation of an idea come to life.
+I'm a front-end engineer with strength in React, CSS, Javascript, Django, and MongoDB.
+I contribute a unique perspective due to my capacity to easily access creativity and logic.
+I feel comfortable with my innate ability of being both big vision and detail oriented.
+bring passion, lateral thinking and a knack for creation to the table.
               </p>
-              <br />
-              <Button className="btn-round" color="default" outline>
-                <i className="fa fa-cog" /> Settings
-              </Button>
+              <br/>
+              <Button
+              href="http://www.keepandshare.com/doc11/view.php?id=32072&da=y"
+              className="btn-round mr-1"
+              color="success"
+              target="_blank"
+              outline
+            >
+             <p className="resume-btn">Resume</p>
+            </Button>
             </Col>
           </Row>
-          <br />
-          <div className="nav-tabs-navigation">
-            <div className="nav-tabs-wrapper">
-              <Nav role="tablist" tabs>
-                <NavItem>
-                  <NavLink
-                    className={activeTab === "1" ? "active" : ""}
-                    onClick={() => {
-                      toggle("1");
-                    }}
-                  >
-                    Follows
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink
-                    className={activeTab === "2" ? "active" : ""}
-                    onClick={() => {
-                      toggle("2");
-                    }}
-                  >
-                    Following
-                  </NavLink>
-                </NavItem>
-              </Nav>
-            </div>
-          </div>
-          {/* Tab panes */}
-          <TabContent className="following" activeTab={activeTab}>
-            <TabPane tabId="1" id="follows">
-              <Row>
-                <Col className="ml-auto mr-auto" md="6">
-                  <ul className="list-unstyled follows">
-                    <li>
-                      <Row>
-                        <Col className="ml-auto mr-auto" lg="2" md="4" xs="4">
-                          <img
-                            alt="..."
-                            className="img-circle img-no-padding img-responsive"
-                            src={
-                              require("assets/img/faces/clem-onojeghuo-2.jpg")
-                                .default
-                            }
-                          />
-                        </Col>
-                        <Col className="ml-auto mr-auto" lg="7" md="4" xs="4">
-                          <h6>
-                            Flume <br />
-                            <small>Musical Producer</small>
-                          </h6>
-                        </Col>
-                        <Col className="ml-auto mr-auto" lg="3" md="4" xs="4">
-                          <FormGroup check>
-                            <Label check>
-                              <Input
-                                defaultChecked
-                                defaultValue=""
-                                type="checkbox"
-                              />
-                              <span className="form-check-sign" />
-                            </Label>
-                          </FormGroup>
-                        </Col>
-                      </Row>
-                    </li>
-                    <hr />
-                    <li>
-                      <Row>
-                        <Col className="mx-auto" lg="2" md="4" xs="4">
-                          <img
-                            alt="..."
-                            className="img-circle img-no-padding img-responsive"
-                            src={
-                              require("assets/img/faces/ayo-ogunseinde-2.jpg")
-                                .default
-                            }
-                          />
-                        </Col>
-                        <Col lg="7" md="4" xs="4">
-                          <h6>
-                            Banks <br />
-                            <small>Singer</small>
-                          </h6>
-                        </Col>
-                        <Col lg="3" md="4" xs="4">
-                          <FormGroup check>
-                            <Label check>
-                              <Input defaultValue="" type="checkbox" />
-                              <span className="form-check-sign" />
-                            </Label>
-                          </FormGroup>
-                        </Col>
-                      </Row>
-                    </li>
-                  </ul>
-                </Col>
-              </Row>
-            </TabPane>
-            <TabPane className="text-center" tabId="2" id="following">
-              <h3 className="text-muted">Not following anyone yet :(</h3>
-              <Button className="btn-round" color="warning">
-                Find artists
-              </Button>
-            </TabPane>
-          </TabContent>
-        </Container>
-      </div>
-      <DemoFooter />
+          
+          </Container>          
+                   
+          
+                  
+                            
+                        
+                       
+                        
+        </div>                
+                       
+                     
+      
+      
     </>
   );
 }

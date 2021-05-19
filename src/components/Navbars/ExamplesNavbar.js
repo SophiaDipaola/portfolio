@@ -17,12 +17,14 @@
 
 */
 import React from "react";
-import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
-
 // reactstrap components
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
 import {
+  Button,
   Collapse,
   NavbarBrand,
   Navbar,
@@ -30,7 +32,6 @@ import {
   NavLink,
   Nav,
   Container,
-  Button,
 } from "reactstrap";
 
 function ExamplesNavbar() {
@@ -64,21 +65,16 @@ function ExamplesNavbar() {
     };
   });
   return (
-    <Navbar
-      className={classnames("fixed-top", navbarColor)}
-      color-on-scroll="300"
-      expand="lg"
-    >
+    <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container>
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            to="/index"
+            href="/index"
             target="_blank"
             title="Coded by Creative Tim"
-            tag={Link}
           >
-            Paper Kit 2
+            Sophia DiPaola
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -99,72 +95,40 @@ function ExamplesNavbar() {
         >
           <Nav navbar>
             <NavItem>
-              <NavLink to="/index" tag={Link}>
-                <i className="nc-icon nc-layout-11" /> Components
-              </NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-examples-navbar"
+                data-placement="bottom"
+                href="https://www.linkedin.com/in/sophiadipaola/"
                 target="_blank"
+                title="check out my linkedin"
               >
-                <i className="nc-icon nc-book-bookmark" /> Documentation
+                <LinkedInIcon/>
+                <p className="d-lg-none">Linkedin</p>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim?ref=creativetim"
+                href="https://github.com/SophiaDipaola"
                 target="_blank"
-                title="Follow us on Twitter"
+                title="Follow on Github"
               >
-                <i className="fa fa-twitter" />
-                <p className="d-lg-none">Twitter</p>
+                <GitHubIcon />
+                <p className="d-lg-none">Git Hub</p>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="mailto:sophiadipaola@gmail.com"
                 target="_blank"
-                title="Like us on Facebook"
+                title="email me"
               >
-                <i className="fa fa-facebook-square" />
-                <p className="d-lg-none">Facebook</p>
+                <AlternateEmailIcon />
+                <p className="d-lg-none">email</p>
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
-                target="_blank"
-                title="Follow us on Instagram"
-              >
-                <i className="fa fa-instagram" />
-                <p className="d-lg-none">Instagram</p>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial?ref=creativetim"
-                target="_blank"
-                title="Star on GitHub"
-              >
-                <i className="fa fa-github" />
-                <p className="d-lg-none">GitHub</p>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <Button
-                className="btn-round"
-                color="danger"
-                href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-examples-navbar"
-                target="_blank"
-              >
-                <i className="nc-icon nc-spaceship"></i> Upgrade to Pro
-              </Button>
-            </NavItem>
+            
+           
           </Nav>
         </Collapse>
       </Container>

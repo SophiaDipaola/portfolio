@@ -20,7 +20,7 @@
 import React from "react";
 
 // reactstrap components
-import { Container } from "reactstrap";
+import { Container, Button } from "reactstrap";
 
 // core components
 
@@ -31,30 +31,21 @@ function IndexHeader() {
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/antoine-barres.jpg").default + ")",
+            "url(" + require("assets/img/examples/trees.png").default + ")",
         }}
       >
         <div className="filter" />
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1 className="presentation-title">Paper Kit React</h1>
-              <div className="fog-low">
-                <img
-                  alt="..."
-                  src={require("assets/img/fog-low.png").default}
-                />
-              </div>
-              <div className="fog-low right">
-                <img
-                  alt="..."
-                  src={require("assets/img/fog-low.png").default}
-                />
-              </div>
+              <h1 className="presentation-title">Sophia DiPaola</h1>
+              
             </div>
             <h2 className="presentation-subtitle text-center">
-              Make your mark with a Free Bootstrap 4 (Reactstrap) UI Kit!
+              Front-End Developer
             </h2>
+            
+          
           </Container>
         </div>
         <div
@@ -64,19 +55,7 @@ function IndexHeader() {
               "url(" + require("assets/img/clouds.png").default + ")",
           }}
         />
-        <h6 className="category category-absolute">
-          Designed and coded by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=pkr-index-page"
-            target="_blank"
-          >
-            <img
-              alt="..."
-              className="creative-tim-logo"
-              src={require("assets/img/creative-tim-white-slim2.png").default}
-            />
-          </a>
-        </h6>
+        
       </div>
     </>
   );

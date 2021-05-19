@@ -52,21 +52,14 @@ function Index() {
     <>
       <IndexNavbar />
       <IndexHeader />
+      <br/>
       <div className="main">
-        <SectionButtons />
-        <SectionNavbars />
-        <SectionNavigation />
-        <SectionProgress />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavaScript />
+        <h2 className="text-center">Projects</h2>
         <SectionCarousel />
-        <SectionNucleoIcons />
-        <SectionDark />
-        <SectionLogin />
-        <SectionExamples />
-        <SectionDownload />
-        <DemoFooter />
+        
+        
+       
+        
       </div>
     </>
   );

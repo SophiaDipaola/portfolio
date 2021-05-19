@@ -27,9 +27,12 @@ import "assets/demo/demo.css?v=1.3.0";
 // pages
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
-import LandingPage from "views/examples/LandingPage.js";
+
 import ProfilePage from "views/examples/ProfilePage.js";
-import RegisterPage from "views/examples/RegisterPage.js";
+import Mind from "views/examples/Mind.js";
+import Farmony from "views/examples/Farmony.js";
+import Selene from "views/examples/Selene.js";
+import Lavender from "views/examples/Lavender.js";
 // others
 
 ReactDOM.render(
@@ -41,16 +44,24 @@ ReactDOM.render(
         render={(props) => <NucleoIcons {...props} />}
       />
       <Route
-        path="/landing-page"
-        render={(props) => <LandingPage {...props} />}
+        path="/Selene"
+        render={(props) => <Selene {...props} />}
       />
       <Route
-        path="/profile-page"
+        path="/About"
         render={(props) => <ProfilePage {...props} />}
       />
       <Route
-        path="/register-page"
-        render={(props) => <RegisterPage {...props} />}
+        path="/Farmony"
+        render={(props) => <Farmony {...props} />}
+      />
+      <Route
+        path="/MindWholeness"
+        render={(props) => <Mind {...props} />}
+      />
+      <Route
+        path="/Lavender"
+        render={(props) => <Lavender {...props} />}
       />
       <Redirect to="/index" />
     </Switch>

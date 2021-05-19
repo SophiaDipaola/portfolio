@@ -1,22 +1,6 @@
-/*!
 
-=========================================================
-* Paper Kit React - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
+
 
 // reactstrap components
 import {
@@ -34,19 +18,24 @@ import {
 
 const items = [
   {
-    src: require("assets/img/soroush-karimi.jpg").default,
-    altText: "Somewhere",
-    caption: "Somewhere",
+    src: require("assets/img/hanna-postova.jpg").default,
+    altText: "Selene",
+    caption: "Selene",
   },
   {
-    src: require("assets/img/federico-beccari.jpg").default,
-    altText: "Somewhere else",
-    caption: "Somewhere else",
+    src: require("assets/img/jake-gard.jpg").default,
+    altText: "Farmony",
+    caption: "Farmony",
   },
   {
-    src: require("assets/img/joshua-stannard.jpg").default,
-    altText: "Here it is",
-    caption: "Here it is",
+    src: require("assets/img/thomas-le.jpg").default,
+    altText: "mindwholeness",
+    caption: "The MindWholeness Podcast",
+  },
+  {
+    src: require("assets/img/nordwood-themes.jpg").default,
+    altText: "Lavender",
+    caption: "Lavender Recovery",
   },
 ];
 
@@ -96,12 +85,15 @@ function SectionCarousel() {
                         onExiting={onExiting}
                         onExited={onExited}
                         key={item.src}
+                        
                       >
-                        <img src={item.src} alt={item.altText} />
+                        <img src={item.src} alt={item.altText}/>
+                        
                         <CarouselCaption
                           captionText={item.caption}
                           captionHeader=""
                         />
+                        
                       </CarouselItem>
                     );
                   })}
