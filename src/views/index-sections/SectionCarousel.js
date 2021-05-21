@@ -1,9 +1,10 @@
 
 import React from "react";
-
+import { Link } from "react-router-dom"
 
 // reactstrap components
 import {
+  Button,
   Card,
   Container,
   Row,
@@ -21,21 +22,25 @@ const items = [
     src: require("assets/img/hanna-postova.jpg").default,
     altText: "Selene",
     caption: "Selene",
+    url: "/selene"
   },
   {
     src: require("assets/img/jake-gard.jpg").default,
     altText: "Farmony",
     caption: "Farmony",
+    url: "/farmony"
   },
   {
     src: require("assets/img/thomas-le.jpg").default,
     altText: "mindwholeness",
     caption: "The MindWholeness Podcast",
+    url: "/mindwholeness"
   },
   {
     src: require("assets/img/nordwood-themes.jpg").default,
     altText: "Lavender",
     caption: "Lavender Recovery",
+    url: "/lavender"
   },
 ];
 
@@ -85,15 +90,25 @@ function SectionCarousel() {
                         onExiting={onExiting}
                         onExited={onExited}
                         key={item.src}
-                        
+
                       >
-                        <img src={item.src} alt={item.altText}/>
-                        
+                        <Button
+                          href={item.url}
+                          className="btn-round mr-1"
+                          color="neutral"
+                          target="_blank"
+                          outline
+                        >
+
+                          Learn More
+                        </Button>
+                        <img src={item.src} alt={item.altText} />
+
                         <CarouselCaption
                           captionText={item.caption}
                           captionHeader=""
                         />
-                        
+
                       </CarouselItem>
                     );
                   })}
@@ -123,6 +138,7 @@ function SectionCarousel() {
                     <span className="fa fa-angle-right" />
                     <span className="sr-only">Next</span>
                   </a>
+
                 </Carousel>
               </Card>
             </Col>
