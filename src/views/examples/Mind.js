@@ -12,7 +12,7 @@ import {
 
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import MindHeader from "components/Headers/MindHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+
 
 function Mind() {
   document.documentElement.classList.remove("nav-open");

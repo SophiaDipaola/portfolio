@@ -24,7 +24,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
 import {
-  Button,
+  
   Collapse,
   NavbarBrand,
   Navbar,
