@@ -26,7 +26,7 @@ import "assets/scss/paper-kit.scss?v=1.3.0";
 import "assets/demo/demo.css?v=1.3.0";
 // pages
 import Index from "views/Index.js";
-import NucleoIcons from "views/NucleoIcons.js";
+
 
 import ProfilePage from "views/examples/ProfilePage.js";
 import Mind from "views/examples/Mind.js";
