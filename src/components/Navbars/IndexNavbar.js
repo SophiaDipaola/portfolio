@@ -71,7 +71,6 @@ function IndexNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/index"
-            target="_blank"
             title="Coded by Creative Tim"
           >
             Sophia DiPaola
@@ -132,7 +131,7 @@ function IndexNavbar() {
               <NavLink
                 data-placement="bottom"
                 href="/about"
-                target="_blank"
+                
                 title="about"
               >
                 About

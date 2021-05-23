@@ -96,7 +96,7 @@ function SectionCarousel() {
                           href={item.url}
                           className="btn-round mr-1"
                           color="neutral"
-                          target="_blank"
+                          
                           outline
                         >
 

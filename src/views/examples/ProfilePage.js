@@ -72,12 +72,12 @@ function ProfilePage() {
           <Row>
             <Col className="ml-auto mr-auto text-center" md="6">
               <p>
-              With a background in the arts, I have always been fascianted with the process of creating something out of nothing.
+              With a background in the arts, I have always been fascinated with the process of creating something out of nothing.
 There is nothing more magical than seeing the direct manifestation of an idea come to life.
 I'm a front-end engineer with strength in React, CSS, Javascript, Django, and MongoDB.
 I contribute a unique perspective due to my capacity to easily access creativity and logic.
 I feel comfortable with my innate ability of being both big vision and detail oriented.
-bring passion, lateral thinking and a knack for creation to the table.
+I bring passion, lateral thinking and a knack for creation to the table.
               </p>
               <br/>
               <Button

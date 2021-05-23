@@ -71,7 +71,7 @@ function ExamplesNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/index"
-            target="_blank"
+            
             title="Coded by Creative Tim"
           >
             Sophia DiPaola
@@ -127,7 +127,17 @@ function ExamplesNavbar() {
                 <p className="d-lg-none">email</p>
               </NavLink>
             </NavItem>
-            
+            <NavItem>
+              <NavLink
+                data-placement="bottom"
+                href="/about"
+                
+                title="about"
+              >
+                About
+                
+              </NavLink>
+            </NavItem>
            
           </Nav>
         </Collapse>
