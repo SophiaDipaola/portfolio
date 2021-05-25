@@ -41,7 +41,7 @@ function Index() {
       <IndexHeader />
       <br/>
       <div className="main">
-        <h2 className="text-center">Projects</h2>
+        <h2 className="text-center">Portfolio</h2>
         <SectionCarousel />
         
         
