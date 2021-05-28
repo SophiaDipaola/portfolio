@@ -78,6 +78,13 @@ I'm a front-end engineer with strength in React, CSS, Javascript, Django, and Mo
 I contribute a unique perspective due to my capacity to easily access creativity and logic.
 I feel comfortable with my innate ability of being both big vision and detail oriented.
 I bring passion, lateral thinking and a knack for creation to the table.
+<br/>
+<br/>
+<h6 className="description">Technical Skills</h6>
+Languages | JavaScript, HTML, CSS, Python, EJS<br/>
+Libraries + Frameworks | React.js, Node.js, Express.js, Django, Material UI  <br/>
+Database | PostgreSQL, Sequelize, ORM, MongoDB, REST APIs, pymongo<br/>
+Other |  Square Space, Git Hub
               </p>
               <br/>
               <Button
