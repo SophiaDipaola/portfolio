@@ -63,7 +63,7 @@ ReactDOM.render(
         path="/lavender"
         render={(props) => <Lavender {...props} />}
       />
-      <Redirect to="/index" />
+      <Redirect to="/index" /> 
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
