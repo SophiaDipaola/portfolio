@@ -130,7 +130,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="/about"
+                href="https://sophia-dipaola.web.app/about"
                 
                 title="about"
               >

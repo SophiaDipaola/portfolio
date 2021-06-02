@@ -22,25 +22,25 @@ const items = [
     src: require("assets/img/hanna-postova.jpg").default,
     altText: "Selene",
     caption: "Selene",
-    url: "/selene"
+    url: "https://sophia-dipaola.web.app/selene"
   },
   {
     src: require("assets/img/jake-gard.jpg").default,
     altText: "Farmony",
     caption: "Farmony",
-    url: "/farmony"
+    url: "https://sophia-dipaola.web.app/farmony"
   },
   {
     src: require("assets/img/thomas-le.jpg").default,
     altText: "mindwholeness",
     caption: "The MindWholeness Podcast",
-    url: "/mindwholeness"
+    url: "https://sophia-dipaola.web.app/mindwholeness"
   },
   {
     src: require("assets/img/nordwood-themes.jpg").default,
     altText: "Lavender",
     caption: "Lavender Recovery",
-    url: "/lavender"
+    url: "https://sophia-dipaola.web.app/lavender"
   },
 ];
 
