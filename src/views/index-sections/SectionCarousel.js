@@ -22,7 +22,7 @@ const items = [
     src: require("assets/img/hanna-postova.jpg").default,
     altText: "Selene",
     caption: "Selene",
-    url: "https://affectionate-shannon-f2266a.netlify.app/selene"
+    url: "/selene"
   },
   {
     src: require("assets/img/jake-gard.jpg").default,

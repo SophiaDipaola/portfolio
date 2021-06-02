@@ -44,7 +44,7 @@ ReactDOM.render(
         render={(props) => <NucleoIcons {...props} />}
       />
       <Route
-        path="https://affectionate-shannon-f2266a.netlify.app/selene"
+        path="/selene"
         render={(props) => <Selene {...props} />}
       />
       <Route
