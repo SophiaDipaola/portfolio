@@ -94,7 +94,7 @@ Other |  Square Space, Git Hub
               target="_blank"
               outline
             >
-             <p className="resum-btn">Resume</p>
+             <p className="resume-btn">Resume</p>
             </Button>
             </Col>
           </Row>
