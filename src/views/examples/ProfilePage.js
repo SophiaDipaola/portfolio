@@ -88,7 +88,7 @@ Other |  Square Space, Git Hub
               </p>
               <br/>
               <Button
-              href="http://www.keepandshare.com/doc11/view.php?id=32364&da=y"
+              href="https://www.keepandshare.com/doc11/32068/sophia-dipaola-1-pdf-153k?da=y"
               className="btn-round mr-1"
               color="success"
               target="_blank"
