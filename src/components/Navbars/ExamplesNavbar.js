@@ -130,7 +130,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://affectionate-shannon-f2266a.netlify.app/about"
+                href="/about"
                 
                 title="about"
               >
