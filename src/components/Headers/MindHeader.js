@@ -55,7 +55,7 @@ function MindHeader() {
         <Container>
           <div className="motto text-center">
             <h1>The MindWholeness Podcast</h1>
-            <h3>The MindWholeness Podcast is a podcast about the convergence of mental health and mindfulness is a life or death conversation.</h3>
+            <h3>The MindWholeness Podcast is a podcast about the convergence of mental health and mindfulness.</h3>
             <br />
             <Button
               href="https://www.themindwholenesspodcast.com/"
