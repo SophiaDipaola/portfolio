@@ -58,7 +58,7 @@ function FarmonyHeader() {
             <h3>Farmony is a social media website for promoting accessibility to affordable health foods for low income families through community cultivation and providing a virtual farmers market.</h3>
             <br />
             <Button
-              href="http://farmony-us.herokuapp.com/"
+              href="http://farmonyforum.herokuapp.com/"
               className="btn-round mr-1"
               color="neutral"
               target="_blank"
